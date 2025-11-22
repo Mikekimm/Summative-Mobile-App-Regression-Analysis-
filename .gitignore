@@ -1,0 +1,15 @@
+# Model files (too large for GitHub)
+*.pkl
+Linear_regression/*.pkl
+API/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Flutter
+linear_regression_app/.dart_tool/
+linear_regression_app/build/
+linear_regression_app/.flutter-plugins
+linear_regression_app/.flutter-plugins-dependencies
