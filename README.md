@@ -39,9 +39,9 @@ Open and run insurance_regression_analysis.ipynb
 Click cell and run all
 
 FastAPI (Which is already deployed)
-https://summative-mobile-app-regression-analysis-x6ss.onrender.com
 
-Swagger https://summative-mobile-app-regression-analysis-x6ss.onrender.com/docs
+
+Swagger https://summative-mobile-app-regression-analysis-x6ss.onrender.com/docs#/default/predict_insurance_predict_post
 
 Install dependencies pip install -r requirements.txt
 Generate model files python generate_model_files.py
