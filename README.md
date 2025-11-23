@@ -224,3 +224,5 @@ Mobile App Regression Analysis - Summative
 API Documentation: See `API/README.md`
 Flutter App Guide: See `linear_regression_app/README_FLUTTER.md
  Jupyter Notebook: Open Linear_regression/insurance_regression_analysis.ipynb
+
+Source: https://www.kaggle.com/code/abdulrahmanelbanna/medical-insurance-cost-prediction
