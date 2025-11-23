@@ -195,8 +195,8 @@ class _PredictionPageState extends State<PredictionPage> {
   bool _isLoading = false;
   String _errorMessage = '';
 
-  // API URL - localhost for emulator/simulator
-  final String apiUrl = 'http://127.0.0.1:8001/predict';
+  // API URL - Render deployment
+  final String apiUrl = 'https://summative-mobile-app-regression-analysis-x6ss.onrender.com/predict';
 
   @override
   void dispose() {

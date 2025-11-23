@@ -1,3 +1,5 @@
+Youtube Video Link  https://youtu.be/0BJPtSDFAGw
+
 Linear_Regression
 Insurance charge prediction System
 
@@ -5,6 +7,53 @@ Mission
 Predict annual medical insurance charges based on a person's health and demographic information.
 Mission Statement
 This system predicts annual medical insurance using machine learning. By analyzing demographic and health factors we provide accurate estimates that help people plan their healthcare budget.The solution combines regression analysis, REST API deployment, and a mobile application to make insurance predictions accessible and user-friendly.
+
+Insurance Charges Prediction - 
+
+Project Overview 
+This project consists of three main components:
+1. Jupyter Notebook - Regression analysis with 4 Machine learning models
+2. FastAPI Backend - REST API deployed on Render
+3. Flutter Mobile App - Cross-platform mobile application
+
+Required Software
+- Python 3.8+  (Python 3.13 is the one recommended)
+- Flutter SDK 3.0+
+- Git 
+- VS Code or Android Studio
+- Chrome Browser (for web testing)
+
+Installation Instructions
+
+Clone the Repository git clone:
+https://github.com/Mikekimm/Summative-Mobile-App-Regression-Analysis-.git
+cd Summative-Mobile-App-Regression-Analysis-
+
+Jupyter Notebook
+cd  Linear_regression
+Install Python Dependencies pandas,numpy,scikit learn,matplotib,seaborn,jupyter
+pip install -r requirements.txt
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+Launch Jupyter Notebook
+Open and run insurance_regression_analysis.ipynb
+Click cell and run all
+
+FastAPI (Which is already deployed)
+https://summative-mobile-app-regression-analysis-x6ss.onrender.com
+
+Swagger https://summative-mobile-app-regression-analysis-x6ss.onrender.com/docs
+
+Install dependencies pip install -r requirements.txt
+Generate model files python generate_model_files.py
+Run server python -m uvicorn main:app --host 0.0.0.0 --port 8001 --reload
+
+Flutter Mobile App:
+cd ../linear_regression_app
+Install dependencies flutter pub get
+Verify the installation using flutter doctor
+Run it using flutter run
+Test the app
+
 
 Dataset Overview
 We use the Medical Cost Personal Dataset from Kaggle
@@ -128,7 +177,7 @@ json
 5. Click "Execute" to see predictions
 How to Run
 Run Regression - cd Linear_regression, jupyter notebook insurance_regression_analysis.ipynb
-Launch API -  cd API, pip install -r requirements.txt, uvicorn main:app --host 0.0.0.0 --port 8001
+Launch API -  cd API, pip install -r requirements.txt, uvicorn main:app 
 Start Mobile App - cd linear_regression_app, flutter pub get, flutter run
 
 
